@@ -4,6 +4,7 @@ date_default_timezone_set("Asia/Tehran");
 $_MAIN_URL = 'https://bekharbefrush.ir/';
 
 $SQL_HOST = 'localhost';
+
 $SQL_USER = 'root';
 $SQL_PASS = '';
 $SQL_DNNAME = 'bekharbefrush';
