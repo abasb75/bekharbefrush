@@ -1,0 +1,87 @@
+#header_navbar .container ul li{
+    display: inline;
+}
+#header_navbar .container{
+    width: 100%;
+}
+#header_navbar .container #header_nav_list{
+    margin-right: 10px;
+}
+#header_navbar .container #header_nav_connect_list{
+    margin-left: 10px;
+}
+#header_navbar .container ul li{
+    margin: 0;
+}
+#header_navbar .container ul li{
+    font-size: 14px;
+}
+#header_navbar .container #header_nav_connect_list *{
+    float: none;
+}
+#main_header .container{
+    width: 100%;
+    max-width: 100%;
+}
+#main_header .container > *{
+    font-size: 16px;
+    float: none;
+    display: inline;
+    position: absolute !important;
+}
+#main_header .container a.h1{
+    top: 0;
+    right: 15px;
+}
+#main_header .container ul{
+    top: 0;
+    right: 15%;
+}
+#main_header .container ul *{
+    font-size: 14px;
+    float: none;
+    display: inline;
+}
+
+#main_header .container > div{
+    top: 0;
+    left: 120px;
+    height: 40px;
+    position: absolute;
+    width: 40%;
+
+}#main_header .container > div > .inputHolder{
+    top: 0;
+    left: 0;
+    height: 40px;
+    position: absolute;
+    width: 100%;
+}#main_header .container > div > .inputHolder input{
+    top: 0;
+    left: 0;
+    height: 40px;
+    position: absolute;
+    width: 100%;
+    line-height: 40px;
+}
+#main_header .container > button {
+    top: 0;
+    left: 15px;
+    height: 40px;
+}
+
+#main_header .container #searchBar .inputHolder input{
+    line-height: 40px;
+    display: inline;
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+}
+
+#main_header .container #myAccountField #myAccountFieldMenu #myAccountFieldMenuTitle_container ul li{
+    width: 90%;
+    
+
+}

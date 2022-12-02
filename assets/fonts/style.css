@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('vazir-font-v16.1.0/Farsi/Vazir.eot'); /* IE9 Compat Modes */
+    src: url('vazir-font-v16.1.0/Farsi/Vazir.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('vazir-font-v16.1.0/Farsi/Vazir.woff2') format('woff2'), /* Super Modern Browsers */
+         url('vazir-font-v16.1.0/Farsi/Vazir.woff') format('woff'), /* Pretty Modern Browsers */
+         url('vazir-font-v16.1.0Farsi//Vazir.ttf')  format('truetype'); /* Safari, Android, iOS */
+  }
+  @font-face {
+    font-family: 'Vaizr-Bold';
+    src: url('vazir-font-v16.1.0/Farsi/Vazir-Bold.eot'); /* IE9 Compat Modes */
+    src: url('vazir-font-v16.1.0/Farsi/Vazir-Bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('vazir-font-v16.1.0/Farsi/Vazir-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('vazir-font-v16.1.0/Farsi/Vazir-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('vazir-font-v16.1.0/Farsi/Vazir-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+  }
+  @font-face {
+       font-family: 'nstaliq';
+       src: url('IranNastaliq/Shekasteh.ttf');
+  }
+
+  @font-face {
+	font-family: 'Yekan';
+	src: url( 'yekan/Yekan.eot' );
+	src: url( 'yekan/Yekan.eot?#iefix' ) format( 'embedded-opentype' ),
+		url( 'yekan/Yekan.woff2' ) format( 'woff2' ),
+		url( 'yekan/Yekan.woff' ) format( 'woff' ),
+		url( 'yekan/Yekan.ttf' ) format( 'truetype' ),
+		url( 'yekan/Yekan.svg#Yekan' ) format( 'svg' );
+	font-weight: normal;
+	font-style: normal;
+}

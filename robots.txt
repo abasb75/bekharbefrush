@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /user
+Disallow: /user/
+Disallow: /user/*
+Disallow: /chat
+Disallow: /chat/
+Disallow: /chat/*
+Disallow: /new
+Disallow: /new/
+Disallow: /new/*
+Disallow: /api
+Disallow: /api/
+Disallow: /api/*
+Disallow: /ajax
+Disallow: /ajax/
+Disallow: /ajax/*
+
+Sitemap: http://bekharbefrush.ir/sitemap.xml

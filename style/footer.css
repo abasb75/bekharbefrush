@@ -1,0 +1,108 @@
+#main_footer{
+    width: 100%;
+    margin-top: 150px;
+    height: 100px;
+    position: relative;
+    display: block;
+}
+
+#main_footer #footer_content{
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    font-size: 0;
+    margin: 0 auto;
+}
+
+
+#main_footer #footer_content #footer_right_section{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    line-height: 100px;
+    overflow: hidden;
+    padding:25px 0;
+}
+
+
+#main_footer #footer_content #footer_right_section h3{
+    height: 100%;
+    font-size: 24px;
+    font-family: 'nstaliq';
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    color: #506f8e;
+    line-height: 40px;
+    height: 50px;
+    
+    margin-left: 35px;
+}
+
+#main_footer #footer_content #footer_right_section ul{
+    font-family: 'Vazir';
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    color: #333;
+    line-height: 50px;
+    height: 50px;
+}
+#main_footer #footer_content #footer_right_section ul li{
+    font-family: 'Vazir';
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    color: #333;
+    margin-left: 15px;
+    font-size: 14px;
+    font-size: .875rem;
+}
+
+#main_footer #footer_content #footer_right_section ul li:hover{
+    color: #0abde3;
+}
+
+
+
+
+
+#main_footer #footer_content #footer_left_section{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-align: left;
+    padding: 25px 0;
+}
+#main_footer #footer_content #footer_left_section ul{
+    height: 50px;
+    line-height: 50px;
+}
+#main_footer #footer_content #footer_left_section ul li{
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-size: 1.125rem;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#main_footer #footer_content #footer_left_section ul li i{
+    line-height: 50px;
+    color: #333333;
+}
+
+#main_footer #footer_content #footer_left_section ul li:hover{
+    background: #f5fcff;
+}
+#main_footer #footer_content #footer_left_section ul li:hover i{
+    background: #f5fcff;
+    color: #0abde3;
+}
+
+

@@ -1,0 +1,27 @@
+h1{
+    padding: 100px 0;
+    font-family: 'nstaliq';
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #2e3954;
+}
+p{
+    text-align: center;
+    padding: 20px 0
+}
+ul{
+    text-align: center;
+    display: block;
+    padding: 100px 0;
+}
+ul li{
+    margin: 0 12px;
+}
+ul li a:hover{
+    color: #5e82d7;
+}
+body{
+    min-width: 100%;
+    min-width: none;
+}

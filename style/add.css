@@ -1,0 +1,1472 @@
+#add_header{
+    width: 100%;
+    height: 120px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#add_header h2{
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 66px;
+    overflow: hidden;
+    font-size: 36px;
+    font-family: 'nstaliq','Vaizr-Bold';
+    font-weight: 1000;
+    color: #506f8e;
+}
+
+#add_nav{
+    width: 100%;
+    height: 60px;
+}
+
+#add_nav_layout{
+    width: 100%;
+    height: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+#add_nav_layout h1 , #add_nav_layout ul {
+    width: 50%;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#add_nav_layout h1{
+    font-size: 18px;
+    font-size: 1.2rem;
+    font-family: 'Vaizr-Bold','Vazir';
+    line-height: 60px;
+}
+
+#add_nav_layout ul{
+    text-align: left;
+}
+#add_nav_layout ul li{
+    height: 32px;
+    line-height: 32px;
+    margin-top: 14px;
+    margin-right: 20px;
+    color: #222222;
+}
+
+#add_nav_layout ul li:hover{
+    color: #3894f0;
+}
+
+
+
+#add_main{
+    width:100%;
+    margin-top: 20px;
+}
+
+#add_main_layout{
+    width:100%;
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+#main_footer #footer_content{
+    max-width: 1000px;
+}
+
+
+#select_category{
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    transition: opacity .3s , right .3s ;
+    right: 0;
+}
+
+#select_category.hidden{
+    opacity: 0;
+    right: -100%;
+}
+
+
+#select_category h2{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 50px;
+    color: #444444;
+    padding: 0 10px;
+}
+
+
+#select_category ul{
+    width: 100%;
+}
+
+#select_category  ul li{
+    width: 100%;
+    padding: 0 5px;
+    border-bottom: 1px solid #e8e8e8;
+    height: 68px;
+    height: calc(1rem + 52px);
+    position: relative;
+}
+#select_category ul li *{
+    font-size: 16px;
+    font-size: 1rem;
+    color: #666666;
+    height: 68px;
+    height: calc(1rem + 52px);
+    line-height: 68px;
+    line-height: calc(1rem + 52px);
+    vertical-align: top;
+}
+#select_category ul li span{
+    margin-right: 7px;
+}
+#select_category ul li i.icon-angle-left{
+    position: absolute;
+    top: 0;
+    font-size: 24px;
+    font-size: 1.5rem;
+    left: 10px;
+}
+#select_category ul li.selected{
+    background-color: #506f8e;
+}
+#select_category ul li.selected *{
+    color: #fdfdfd;
+}
+
+
+#select_category ul li:hover{
+    cursor: pointer;
+    background: #506f8e;
+}
+#select_category ul li:hover *{
+    color: #ffffff;
+}
+
+
+
+#product_detail{
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 1;
+    transition: opacity .3s , left .3s ;
+    
+}
+#product_detail *{
+    font-family: 'Vazir';
+}
+#product_detail.hidden{
+    width: 100%;
+    left: -100%;
+    opacity: 0;
+    display: none;
+    position: absolute;
+}
+
+
+.layout_item{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+    
+}
+
+.layout_item h2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1rem;
+    font-family: 'Vaizr-Bold';
+    line-height: 60px;
+    color: #222222;
+    
+}
+
+.layout_item button{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    font-size: 1rem;
+    line-height: 30px;
+    height: 30px;
+    background: none;
+    
+    
+}
+.layout_item button *{
+    line-height: 30px;
+    vertical-align: top;
+    color: #222222;
+}
+.layout_item button:hover *{
+    line-height: 30px;
+    vertical-align: top;
+    color: #f54848;
+}
+
+.layout_item button i{
+    margin-left:10px ;
+}
+
+.layout_item button i.icon-angle-left{
+    margin: 0 10px 0 0;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+/* form Input */
+
+.formInput{
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 30px 0 20px 0;
+
+}
+
+.formInput h3{
+    width: 100%;
+    font-weight: 1000;
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-size: 1rem;
+
+}
+.formInput span{
+    width: 100%;
+    line-height: 1.5;
+    color: #676767;
+    font-size: 14px;
+    font-size: .875rem;
+    margin: 0 0 20px 0;
+}
+
+.formInput input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #999999;
+    margin-top: 30px;
+    padding: 0 25px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    transition: all .3s ;
+}
+.formInput input:focus{
+    
+    border: 2px solid #506f8e;
+    background: #ffffff;
+}
+.formInput input::-webkit-input-placeholder{
+    color: #a0a0a0;
+}
+.formInput input::-moz-placeholder{
+    color: #a0a0a0;
+}
+.formInput input:-ms-input-placeholder{
+    color: #a0a0a0;
+}
+.formInput input::-ms-input-placeholder{
+    color: #a0a0a0;
+}
+.formInput input::placeholder{
+    color: #a0a0a0;
+}
+
+.formInput textarea{
+    display: block;
+    width: 100%;
+    height: 210px;
+    border: 2px solid #999999;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    transition: all .3s ;
+    resize: vertical;
+    outline: 0;
+}
+.formInput textarea:focus{
+    background: #ffffff;
+}
+
+#video_upload_controller{
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+
+#video_upload_controller input{
+    display: none;
+}
+#video_upload_controller label{
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    padding: 0 20px;
+    background: #506f8e;
+    top: 10px;
+    right: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: .875rem;
+    color: #ffffff;
+}#video_upload_controller label *{
+    height: 40px;
+    margin-left: 10px;
+    font-size: 21px;
+    line-height: 40px;
+    vertical-align: top;
+    display: inline-block;
+}
+#video_upload_controller label:hover{
+    background: #607f9e;
+}
+
+
+
+
+
+#progressview{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: none;
+}
+
+#progressview span{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 30px;
+    line-height: 20px;
+    color: #999999;
+    font-size: .7rem;
+}
+
+#progressview img{
+    width: 30px;
+    height: 30px;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#progressview #reload_upload{
+    width: 30px;
+    height: 30px;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 21px;
+    color: #343434;
+    background: none;
+    text-align: center;
+    display: none;
+}
+#progressview #end_of_upload_video{
+    width: 30px;
+    height: 30px;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 21px;
+    color: #343434;
+    background: none;
+    text-align: center;
+    display: none;
+    color: green;
+}#progressview #button_cancel_upload{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #878787;
+    background: none;
+    border-radius: 50%;
+    display: block;
+    
+    font-size: 21px;
+}
+#progressview #button_cancel_upload:hover{
+    background:#f5fcff ; 
+}
+#progressview #button_cancel_upload:hover::after{
+    content: "لغو عملیات";
+    background:rgba(0,0,0,.5);
+    color: #ffffff;
+    border-radius: 4px;
+    display: block;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    position: absolute;
+    top: 35px;
+    left: -35px;
+    font-size: .7rem;
+    
+    
+}
+
+#progress_bar{
+    width: 80%;
+    width: calc(100% - 75px);
+    background: #f1f1f1;
+    height: 20px;
+    position: absolute;
+    left: 32px;
+    top: 5px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#progress_bar_status{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #567598;
+}
+.error{
+    width: 100% !important;
+    background: #e74c3c !important;
+}
+
+
+
+.display{
+    display: block !important;
+}.display_none{
+    display: none!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* alert */
+#alert_selector{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+      -webkit-backface-visibility: hidden;
+
+    top: 0;
+    right: -100%;
+    visibility: hidden;
+    background: #222222;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: all .3s;
+}
+
+#alert_selector.show{
+    right: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+#alert_container{
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    box-shadow: 0 0 1000px #506f8e;
+    border-radius: 5px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: calc( 50% - 200px );
+    overflow: hidden;
+}
+
+#alert_container *{
+    font-family: 'Vazir';
+}
+
+#alert_container > header{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+#alert_container > header button{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    color: #222222;
+}
+#alert_container > header button:hover{
+    color: #f54848;
+}
+#alert_container > header h3{
+    
+    text-align: center;
+    height: 50px;
+    width: calc(100% - 90px);
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    right: 45px;
+    background: none;
+    color: #222222;
+}
+
+body.alert_show{
+    overflow: hidden;
+}
+body.alert_show > *:not(#alert_selector){
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+}
+
+
+#alert_content{
+    width: 100%;
+    height: 100%;
+    padding: 65px 10px 20px 10px;
+    overflow: auto;
+}
+
+#alert_content ul{
+    width: 100%;
+    height: 100%;
+    background: #fdfdfd;
+    overflow: auto;
+}
+#alert_content ul li{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #e9e9e9;
+    overflow: hidden;
+    padding: 5px 20px;
+    position: relative;
+}
+#alert_content ul li span{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    color: #333333;
+}
+
+#alert_content ul li i.icon-check{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    color: #333333;
+    left: 20px;
+    top: 5px;
+    font-size: 19px;
+    text-align: left;
+}
+
+#alert_content ul li:hover *{
+    color: #ffffff !important;
+}
+#alert_content ul li:hover{
+    cursor: pointer;
+    background: #506f8e;
+}
+
+
+
+.inputHolder{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.price_input{
+    direction: ltr;
+    text-align: left;
+    padding-left: 60px !important;
+    width: 100%;
+    margin-top: 10px !important;
+}
+.price_input::placeholder{
+    direction: rtl;
+    text-align: right;
+    color: #999999;
+    
+}
+
+.inputHolder > label{
+    position: absolute;
+    top :0;
+    right: 10px;
+    height: 50px;
+    line-height: 50px;
+    color: #999999;
+    direction: rtl;
+    text-align: right;
+}
+.price_input + label{
+    position: absolute;
+    top :0;
+    left: 0;
+    right: auto !important;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #999999;
+    direction: rtl;
+    text-align: right;
+}
+
+
+#upload_image{
+    width: 100%;
+    font-size: 0;
+}
+
+#upload_image .items{
+    width: 100%;
+    padding: 20px 0;
+    
+}
+#upload_image .item{
+    width: 20%;
+    padding-top: 20%;
+    position: relative;
+    display: inline-block;
+
+    
+}
+#upload_image .itemHolder{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    
+    
+}
+
+
+
+
+#upload_image .itemHolder > div{
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    border: 4px solid #999999;
+}
+
+#upload_image .main_item .itemHolder > div{
+    border: 4px solid #f54848;
+}
+
+
+#image_upload input{
+    visibility: hidden;
+    display: none;
+}
+#image_upload label{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #999999;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background: #f1f1f1;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+#image_upload label i{
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    display: block;
+    font-size: 42px;
+    color: #c0c0c0;
+    margin: 0 auto;
+    top :10;
+    position: relative;
+    top: calc(50% - 27px);
+    transition: all .3s ease;
+}
+
+#image_upload label:hover i{
+    color: #898989;
+}
+#image_upload label:hover{
+    background: #f7f7f7;
+}
+
+#image_upload span{
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background: #000000;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-size: .875rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease;
+}
+
+#image_upload:hover span{
+    visibility: visible;
+    opacity: 1;
+    top :-42px;
+
+}
+
+.imageHolder{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.imageHolder img{
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    border: none;
+    padding: 0;
+    outline: 0;
+    top : 0;
+    left: 0;
+    position:absolute;
+    overflow: hidden;
+    background: #999999;
+    cursor: pointer;
+}
+
+.item .delete{
+    position: absolute;
+    top :16px;
+    left: 16px;
+    width: 28px;
+    height: 28px;
+    background: #ffffff;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 5px;
+    transition: all .3s;
+    font-size: 24px;
+    font-size: 1.3rem;
+    line-height: 28px;
+    color: rgba(64, 64, 64, .6);
+    text-align: center;
+}
+
+.delete i{
+    line-height: 28px;
+}
+.item .delete:hover{
+    background: rgba(255, 255, 255, .9);
+
+}
+
+.item .loading{
+    width: 100%;
+    height: 100%;
+    padding: 35% !important;
+    top: 0 !important;
+    left: 0 !important;
+    position: absolute !important;
+    border: none !important;
+    background: rgba(255,255,255, .7) !important;
+    
+}
+.item .loading > img{
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+}
+
+
+.error_upload{
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+    position: absolute !important;
+    border: none !important;
+    position: relative;
+    background: rgba(255,255,255, .7) !important;
+}
+
+
+
+.error_upload .btnholder{
+    width: 100%;
+    height: 32px;
+    top: 50%;
+    right: 0;
+    position: absolute;
+    transform: translate(0,-50%);
+    text-align: center;
+}
+.error_upload .btnholder button{
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+    margin: 0 5px;
+    background: rgba(255,255,255, .3) !important;
+    border-radius: 50%;
+    color: #333;
+    color: rgba(0,0,0,.4);
+    text-align: center;
+    display: inline-block;
+    transition: all .3s;
+    position: relative;
+}
+.error_upload .btnholder button:hover{
+    background: rgba(255,255,255, .5) !important;
+    color: rgba(0,0,0,.6);
+}
+.error_upload .btnholder button:hover::after{
+    content: " تلاش مجدد ";
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+
+    display: block;
+    position: absolute;
+    top: -42px;
+    right:-34px;
+    font-size: .875rem;
+    background: rgba(0,0,0,.7) ;
+    
+    border-radius: 5px;
+    color: #ffffff;
+}
+.error_upload .btnholder button.deletebtn:hover::after{
+    content: " حذف ";
+}
+
+
+
+#login_form{
+    position: relative;
+    max-width: 650px;
+    margin: 50px auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+    background: none;
+    
+}
+
+#login_form_layout{
+    box-shadow: none;
+}
+
+#button_exit_cancel{
+    display: none;
+}
+
+#login_form_layout .inputHolder > label{
+    position: absolute;
+    top : 10px;
+    left: 10px;
+    right: auto !important;
+    color: #fdfdfd;
+    height: 30px;
+    line-height: 30px;
+    direction: ltr;
+    border-radius: 5px;
+    background: #999999;
+    width: 40px;
+    text-align: center;
+    transition: all .3s;
+}
+
+
+
+#button_send_categry{
+    border-bottom: none !important;
+}
+
+
+#button_send_categry .right{
+    right: 0;
+    left: auto;
+    top: 20px;
+}
+
+#button_send_categry .right:hover{
+    color: #FF6263;
+}
+
+#button_send_categry .left{
+    background: #506f8e;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0 30px;
+    top: 15px;
+}
+
+#button_send_categry .left:hover{
+    background: #306f8e;
+}
+
+
+.offer_span{
+    color: #999999;
+    font-size: .8rem;
+    margin: 10px 0 0 0!important;
+    display: block;
+}
+
+.alert_input{
+    border: 2px solid #FF6263 !important;
+}
+
+.alert_input ~ span{
+    color: #FF6263 !important;
+}
+
+
+
+.loading_viewr{
+    width: 100%;
+    height: 200px;
+    margin-top: 45px;
+    position: relative;
+    margin-top: calc(0px) !important;
+    top: calc(50% - 100px);
+    overflow: hidden;
+    padding: 30px 50px;
+    text-align: center
+}
+
+
+.loading_viewr > div {
+    width: 100%;
+    height: 60px;
+    padding: 10px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.loading_viewr > div  > img{
+    width: 34px;
+    height: 34px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.4;
+}
+
+
+.loading_viewr > div  > i.icon-signal_cellular_connected_no_internet_4_bar{
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 0 auto;
+    color: #e74c3c;
+    font-size: 36px;
+
+}
+
+.loading_viewr h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #797979;
+    font-size: .875rem;
+}
+
+
+.loading_viewr button {
+    background: none;
+    color: #333;
+    /* display: block; */
+    margin: 25px 12px;
+    transition: auto;
+    vertical-align: baseline;
+    line-height: 32px;
+    height: 32px;
+    /* width: 50%; */
+}
+.loading_viewr button:hover{
+    color: #c0392b;
+    
+    
+}
+
+.loading_viewr button i{
+    margin-left: 10px;
+    line-height: 18px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    
+}
+#buttonMenu{
+    display: none;
+}
+
+#mobile_menu{
+    display: none;
+}
+
+
+#loading_box{
+    width: 100%;
+    height: 100%;
+    background: #fdfdfd;
+    position: fixed;
+    z-index: 10000000000000;
+    top: 0;
+    left: 0;
+}
+#loading_box img{
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top : 140px;
+    top: calc(50% - 40px);
+    opacity: .5;
+}
+
+#loading_box span{
+    display: block;
+    margin: 12px auto;
+    font-size: 1rem;
+    color: #333333;
+    position: relative;
+    top : 190px;
+    top: calc(50%);
+    opacity: .75;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:1050px){
+    html,body{
+        min-width: 240px !important;
+        background: #ffffff;
+        width: 100%;
+        height: 100%;
+        width: 100vw;
+        height: 100vh;
+    }
+    #add_header{
+        padding: 0;
+        height: 70px
+    }
+    #add_header h2{
+        height: 60px;
+        margin: 0 auto;
+        line-height: 42px;
+        font-size: 31px;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        padding: 11px 35px;
+        
+        
+    }
+    #add_nav_layout ul{
+        position: absolute;
+        top: 0;
+        height: 70px;
+        padding-left: 35px;
+        padding-top: 10px;
+        left: 0;
+    }
+    #add_nav_layout h1{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #main_footer #footer_content #footer_right_section h3 {
+        
+        display: none;
+    }
+    #main_footer #footer_content #footer_right_section {
+        padding: 20px 35px;
+    }
+
+    #main_footer #footer_content #footer_left_section {
+        padding: 20px 35px;
+    }
+    
+}
+
+
+@media only screen and (max-width:768px){
+    #add_nav_layout ul{
+        display: none;
+    }
+    #buttonMenu{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: #ffffff;
+        position: absolute;
+        top: 10px;
+        left: 35px;
+        border-radius: 5px;
+        padding: 4px;
+        text-align: center;
+        font-size: 28px;
+        color: #333333;
+        transition:  all .3s;
+
+    }
+    #buttonMenu:hover{
+        background: #fdfdfd;
+        color: #000;
+
+    }
+    
+    
+    
+    #mobile_menu{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff !important;
+        top: 0;
+        left: -100%;
+        z-index: 1000000000;
+        overflow: auto;
+        display: block;
+        opacity: 0;
+        transition: opacity .21s;
+    }
+    #mobile_menu.show{
+        
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+    #mobile_phone_contaner{
+        width: 100%;
+        min-height: 460px;
+        height: 100%;
+    }
+    #mobile_menu .button_Holder{
+        position: relative;
+        width: 100%;
+        height: 100px;
+        padding: 30px 40px;
+    }
+    #mobile_menu .button_Holder button{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 5px;
+        background: #ffffff;
+        color: #151515;
+        font-size: 21px;
+        z-index: 11;
+    }
+    #mobile_menu ul{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: calc(50% - 280px);
+        z-index: 10;
+    }
+    #mobile_menu ul li{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        font-size: 1rem;
+        text-align: center;
+        opacity: 1;
+        color: #333;
+    }
+    #mobile_menu ul li a:hover{
+        color: #34495e;
+    }
+    
+    
+    #add_main {
+        width: 100%;
+        margin-top: 0;
+        padding: 20px;
+    }   
+    
+    #main_footer #footer_content #footer_right_section {
+        display: none;
+    }
+
+    #main_footer #footer_content #footer_left_section {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #main_footer{
+        margin-top: 50px;
+    }
+    
+    #alert_container {
+        width: 90%;
+    }
+    
+    
+    #login_form_layout{
+        border: none;
+        top: 25px;
+    }
+    
+}
+
+
+@media only screen and (max-width:680px){
+    #buttonMenu{
+        width: 48px;
+        height: 48px;
+        left: 10px;
+        font-size: 32px;
+        color: #333333;
+
+    }
+    
+    #add_header h2{
+        padding: 11px 10px;
+        
+        
+    }
+    #add_nav {
+        position: absolute;
+        top: 20px;
+        height: 40px;
+        width: 20%;
+        left: 40%;
+        width: calc(200px);
+        left: calc(50% - 100px);
+    }
+    #add_nav{
+        height: 40px;
+    }
+    #add_nav_layout h1 {
+        font-size: 16px;
+        font-size: 1rem;
+        font-family: 'Vaizr-Bold','Vazir';
+        line-height: 40px;
+        height: 40px;
+    }
+}
+
+
+@media only screen and (max-width:560px){
+    .layout_item h2 {
+        font-size: .875rem;
+    }
+    .layout_item button {
+        font-size: .875rem;
+    }
+    #set_city_load span.large{
+        display: none;
+    }
+    
+    #upload_image .itemHolder {
+        padding: 3px;
+    }
+    
+    #upload_image .main_item .itemHolder > div {
+        border: 2px solid #f54848;
+    }
+    #upload_image .itemHolder > div {
+        border: 2px solid #999999;
+    }
+    .item .delete {
+        top: 8px;
+        left: 8px;
+        width: 24px;
+        height: 24px;
+        border-radius: 2px;
+        font-size: 1rem;
+        
+    }
+    
+    .delete i {
+        line-height: 24px;
+    }
+    
+    
+    .error_upload .btnholder button {
+        width: 24px;
+        height: 24px;
+        font-size: 1rem;
+        margin: 5px 3px;
+        background: rgba(255,255,255, 0.5) !important;
+        border-radius: 50%;
+        color: #333;
+        color: rgba(0,0,0,.4);
+    }
+    .error_upload{
+        background: rgba(0,0,0,.`) !important;
+        border-radius: 0;
+    }
+    
+    #image_upload label i {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        display: block;
+        font-size: 24px;
+        top: 10px;
+        position: relative;
+        top: calc(50% - 12px);
+    }
+    #contact_way .price_input{
+        padding: 0 12px !important;
+    }
+    #contact_way .inputHolder{
+        height: 60px;
+    }
+    
+    
+    #add_header h2 {
+        font-size: 24px;
+    }
+    #add_nav_layout h1 {
+        font-size: .875rem;
+    }
+    #buttonMenu {
+        font-size: 28px;
+    }
+    .formInput h3 {
+        margin: 0px 0 12px 0;
+        font-size: .875rem;
+    }
+    .formInput input {
+        padding: 0 12px;
+    }
+    
+    #add_nav{
+        top: 15px;
+    }
+    
+    .editPhoneNumber {
+        top: 59px;
+        left: 10px;
+        
+    }
+}
+
+
+@media only screen and (max-device-width : 480px) {
+    #select_city #select_city_container {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        height: 100vh;
+        margin: 0;
+        margin: 0;
+        background: #ffffff;
+        border: 1px solid #f1f1f1;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    #select_city #select_city_container #select_city_header {
+        height: 56px;
+    }
+    #select_city #select_city_container #select_city_header button {
+        width: 56px;
+        height: 56px;
+    }
+    #select_city #select_city_container #select_city_header h2 {
+        font-size: 1rem;
+        height: 56px;
+        line-height: 56px;
+    }
+    #select_city #select_city_container #select_state {
+        padding: 5px 3px;
+        height: calc(100% - 70px);
+    }
+    #select_city #select_city_container #select_state ul {
+        background: #ffffff;
+    }
+    #select_city #select_city_container #select_state ul li {
+        height: 56px;
+        height: calc( 1rem + 40px);
+    }
+    #select_city #select_city_container #select_state ul li * {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+    .loading_viewr {
+        height: 240px;
+        margin-top: 35px;
+    }
+    .formContent .inputHolder {
+        width: 90%;
+        margin: 60px 5% 30px 5%;
+        height: 74px;
+        position: relative;
+    }
+    .formContent .button_Holder {
+        width: 90%;
+        margin: 0 5%;
+    }
+    #upload_image .item {
+        width: 25%;
+        padding-top: 25%;
+        position: relative;
+        display: inline-block;
+    }
+}
