@@ -38,8 +38,6 @@ if($_SESSION['active_limited'] < time()){
 
     $_SESSION['phone'] = setPasswordCookie(setPassword('0'.$_SESSION['phone']));
     ini_set("session.cookie_domain", ".bekharbefrush.ir");
-    //setcookie('UKEDYBSGTH','94jdey7e2dutt8qw09230903', ['expires'=>time()+(86400 * 30) ,'path'=>'/','httponly'=>TRUE]);
-    //setcookie('pednoieiijeiocenoi',$_SESSION['phone'], ['expires'=>time()+(86400 * 30) ,'path'=>'/', 'httponly'=>TRUE]);
     
     $cookie_name = "UKEDYBSGTH";
     $cookie_value = '94jdey7e2dutt8qw09230903';
@@ -53,10 +51,6 @@ if($_SESSION['active_limited'] < time()){
     $_SESSION['IS_LOGIN_CODE'] = 'yes';
     echo 'VALID';
 }
-//UKEDYBSGTH=is_user_login?
-//JBEHJBEUEIEUIO = USER NOT LOGIN
-//94jdey7e2dutt8qw09230903 = USER IS LOGIN
-//pednoieiijeiocenoi = Phone Number
 
 
 
