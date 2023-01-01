@@ -1,26 +1,4 @@
 <?php
-/*
-$chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@_.';
-$len = strlen($chars);
-echo "[";
-for($i=0;$i<$len;$i++){
-    create_random_text();
-    echo "'$chars[$i]' =>'".create_random_text()."',";
-}
-echo "]";
-
-function create_random_text(){
-    global $chars;
-    $str = '';
-    for($j=0;$j<4;$j++){
-        $str = $str.$chars[mt_rand(0,61)];
-    }
-    return $str;
-}
-
-
-*/
-//for db;
 
 $keys = ['0' =>'Wqu4','1' =>'FprS','2' =>'VAGu','3' =>'umWI','4' =>'Tope','5' =>'JsMV','6' =>'4RW9','7' =>'iApp','8' =>'rS9D','9' =>'3PId','a' =>'CYxn','b' =>'mlm1','c' =>'3mlE','d' =>'c9LC','e' =>'Kmw2','f' =>'El2U','g' =>'Mz13','h' =>'DAek','i' =>'uezb','j' =>'bwZv','k' =>'mXds','l' =>'Zzzf','m' =>'etxZ','n' =>'3ZYU','o' =>'aE53','p' =>'MQLK','q' =>'vzLz','r' =>'c6NR','s' =>'t6Ii','t' =>'d49l','u' =>'Mhzo','v' =>'42IA','w' =>'hhB3','x' =>'bI8f','y' =>'bcH8','z' =>'JGmt','A' =>'rNVw','B' =>'0ZLZ','C' =>'sQlF','D' =>'WbYc','E' =>'7pCs','F' =>'SxBz','G' =>'Sb6r','H' =>'RvFM','I' =>'pOzl','J' =>'6dMu','K' =>'jgYS','L' =>'ofi0','M' =>'rCH1','N' =>'nrXL','O' =>'NRNj','P' =>'dxoo','Q' =>'iiA2','R' =>'kCJU','S' =>'brbN','T' =>'yBW4','U' =>'8anP','V' =>'mn67','W' =>'Hp05','X' =>'geTh','Y' =>'l9uv','Z' =>'UcpK', '@'=>'kA73','.'=>'ddrw','_'=>'3e53'];
 

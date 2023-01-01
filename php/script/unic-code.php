@@ -20,6 +20,7 @@ function getUnicCode($id){
     }
     return $str;
 }
+
 function getRandomKey($ch){
     global $keyUnic;
     return $keyUnic[$ch][rand(0,5)].$keyUnic[$ch][rand(0,5)];
