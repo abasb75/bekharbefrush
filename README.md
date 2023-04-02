@@ -1,4 +1,4 @@
 # bekharbefrush
-php and javascript source off bekharbefrush.ir
+php and javascript source
 
 online demo : https://bekharbefrush.ir
